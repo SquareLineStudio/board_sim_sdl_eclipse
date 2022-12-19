@@ -1,5 +1,5 @@
 {
-    "version":"v1.0.0",
+    "version":"v1.0.1",
     "group":"Desktop",
     "title": "Eclipse with SDL for development on PC",
     "keywords": "PC, desktop, SDL, Eclipse, PC, Windows, Linux, MacOS",
@@ -14,8 +14,8 @@
     "rotation": 0,
     "color_depth": "8, 16, 16 sw, 32",
     "lvgl_export_path": "./",
-    "lvgl_include_path": "lvgl/SAJTOSlvgl.h",
-    "supported_lvgl_version": "8.2.0,8.3.2",
+    "lvgl_include_path": "lvgl/lvgl.h",
+    "supported_lvgl_version": "8.2.0, 8.3.3",
     "pattern_match_files": "lv_conf.h, lv_drv_conf.h, .project",
     "language":"C",
     "ui_export_path":"./ui",
